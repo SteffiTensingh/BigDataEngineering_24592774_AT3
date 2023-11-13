@@ -1,0 +1,129 @@
+[0m19:03:16.165158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258DEB62F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258E3019BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258E3019970>]}
+
+
+============================== 19:03:16.170157 | e21aed83-1586-4418-bf54-d42fc9787c2b ==============================
+[0m19:03:16.170157 [info ] [MainThread]: Running with dbt=1.6.6
+[0m19:03:16.170157 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Steffi Grace\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m19:04:20.561609 [debug] [MainThread]: Starter project path: C:\Users\Steffi Grace\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\dbt\include\starter_project
+[0m19:04:20.623757 [info ] [MainThread]: 
+Your new dbt project "bigdataengineering_at3" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:04:20.627764 [info ] [MainThread]: Setting up your profile.
+[0m19:04:23.010664 [debug] [MainThread]: Command `dbt init` succeeded at 19:04:23.010664 after 66.87 seconds
+[0m19:04:23.011673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258DEB62F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258E304D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258E304DCD0>]}
+[0m19:04:23.012748 [debug] [MainThread]: Flushing usage events
+[0m19:06:39.236058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EF22BA2EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EF27059C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EF27059B50>]}
+
+
+============================== 19:06:39.241480 | b52d518d-162b-4a48-b3ee-8901a6b7d4c6 ==============================
+[0m19:06:39.241480 [info ] [MainThread]: Running with dbt=1.6.6
+[0m19:06:39.242432 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Steffi Grace\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m19:06:50.995380 [debug] [MainThread]: Starter project path: C:\Users\Steffi Grace\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\dbt\include\starter_project
+[0m19:06:51.022533 [info ] [MainThread]: 
+Your new dbt project "Big_Data_Engg_AT3" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:06:51.026533 [info ] [MainThread]: Setting up your profile.
+[0m19:06:52.362105 [debug] [MainThread]: Command `dbt init` succeeded at 19:06:52.362105 after 13.15 seconds
+[0m19:06:52.363104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EF22BA2EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EF2046ADC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EF2046A970>]}
+[0m19:06:52.364106 [debug] [MainThread]: Flushing usage events
+[0m19:46:48.950017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED85C83700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED84B5C1F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED854B7B50>]}
+
+
+============================== 19:46:48.953528 | ef86643d-9ea3-4071-b5b7-2674a37edc0d ==============================
+[0m19:46:48.953528 [info ] [MainThread]: Running with dbt=1.7.1
+[0m19:46:48.954528 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Steffi Grace\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:48:09.726068 [debug] [MainThread]: Starter project path: e:\Data Science\Big_Data_Engineering\Assignments\AT3\AT3-24592774\BigDataEngineering_24592774_AT3\.venv\lib\site-packages\dbt\include\starter_project
+[0m19:48:09.774433 [info ] [MainThread]: 
+Your new dbt project "Big_Data_Engg_AT3" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:48:09.775436 [info ] [MainThread]: Setting up your profile.
+[0m19:48:42.583570 [info ] [MainThread]: Profile Big_Data_Engg_AT3 written to C:\Users\Steffi Grace\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:48:42.585554 [debug] [MainThread]: Command `dbt init` succeeded at 19:48:42.585554 after 113.69 seconds
+[0m19:48:42.586550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED85C83700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED854B7B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED854B4040>]}
+[0m19:48:42.586550 [debug] [MainThread]: Flushing usage events
+[0m19:50:53.902768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF471CB4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF469FC1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF469FC760>]}
+
+
+============================== 19:50:53.905773 | 1df9170a-167a-4fdc-a8ca-9badb062c6de ==============================
+[0m19:50:53.905773 [info ] [MainThread]: Running with dbt=1.7.1
+[0m19:50:53.906773 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Steffi Grace\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:51:09.938377 [debug] [MainThread]: Starter project path: e:\Data Science\Big_Data_Engineering\Assignments\AT3\AT3-24592774\BigDataEngineering_24592774_AT3\.venv\lib\site-packages\dbt\include\starter_project
+[0m19:51:09.965966 [info ] [MainThread]: 
+Your new dbt project "Big_Data_Engineering_AT3" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:51:09.969965 [info ] [MainThread]: Setting up your profile.
+[0m19:51:48.285043 [info ] [MainThread]: Profile Big_Data_Engineering_AT3 written to C:\Users\Steffi Grace\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:51:48.287126 [debug] [MainThread]: Command `dbt init` succeeded at 19:51:48.287126 after 54.45 seconds
+[0m19:51:48.288042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF471CB4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF469FC760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF46A1E130>]}
+[0m19:51:48.288042 [debug] [MainThread]: Flushing usage events
+[0m19:53:13.810360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208E74AB460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208E6CD6940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208E6CD68E0>]}
+
+
+============================== 19:53:13.813301 | c6328c89-8b52-44d9-89f8-a0c1c45d732b ==============================
+[0m19:53:13.813301 [info ] [MainThread]: Running with dbt=1.7.1
+[0m19:53:13.815814 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Steffi Grace\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:53:13.816813 [info ] [MainThread]: dbt version: 1.7.1
+[0m19:53:13.817812 [info ] [MainThread]: python version: 3.9.13
+[0m19:53:13.817812 [info ] [MainThread]: python path: e:\Data Science\Big_Data_Engineering\Assignments\AT3\AT3-24592774\BigDataEngineering_24592774_AT3\.venv\Scripts\python.exe
+[0m19:53:13.818811 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m19:53:13.922980 [info ] [MainThread]: Using profiles dir at C:\Users\Steffi Grace\.dbt
+[0m19:53:13.924980 [info ] [MainThread]: Using profiles.yml file at C:\Users\Steffi Grace\.dbt\profiles.yml
+[0m19:53:13.924980 [info ] [MainThread]: Using dbt_project.yml file at E:\Data Science\Big_Data_Engineering\Assignments\AT3\AT3-24592774\BigDataEngineering_24592774_AT3\dbt_project.yml
+[0m19:53:13.925981 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m19:53:13.927980 [debug] [MainThread]: Command `dbt debug` failed at 19:53:13.927980 after 0.18 seconds
+[0m19:53:13.928981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208E74AB460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208E97DE0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208E6CFD910>]}
+[0m19:53:13.929981 [debug] [MainThread]: Flushing usage events
