@@ -29,14 +29,7 @@ LEFT JOIN (
 ) p 
 ORDER BY rank_revenue_lessontop, rank_population_moreontop DESC;
 
-
-
-
-
-
-
-
-Part 3. b
+--Part 3. b
 
 SELECT
     listing_neighbourhood,
@@ -83,6 +76,7 @@ Randwick             |Apartment       |Entire home/apt|           4|205.80333333
 North Sydney         |Apartment       |Entire home/apt|           2|217.1833333333333333|      22681|      1389028.666666666667|*/
 
 --3.c
+
 SELECT 
     hnh.host_neighborhood_lga,
     COUNT(DISTINCT lnh.listing_neighbourhood) AS num_distinct_listings,
@@ -97,16 +91,7 @@ JOIN public_datamart.dm_listing_neighbourhood lnh ON hnh.host_neighborhood_lga =
 GROUP BY hnh.host_neighborhood_lga
 ORDER BY avg_same_lga DESC;
 
-
-
-
-
-
-
-
-
-
-3.d
+--3.d
 
 SELECT DISTINCT
     dhn.host_neighborhood_lga,
@@ -142,12 +127,3 @@ LEFT JOIN (
 ) nmm ON dhn.host_neighborhood_lga = nmm.listing_neighbourhood
 WHERE dhnh.row_num = 1
 ORDER BY dhn.host_neighborhood_lga, dhnh.year, dhnh.month;
-
-
-
-
-3a
-
-
-
-
