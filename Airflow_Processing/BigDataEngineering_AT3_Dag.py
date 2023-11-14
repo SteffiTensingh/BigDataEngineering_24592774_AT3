@@ -148,7 +148,7 @@ def Load_Table_Listings_Data_2020_Function(**kwargs):
                                                      format='%d/%m/%Y', errors='coerce').dt.strftime('%Y/%m/%d')
     
 
-    Missing_Data = '2020/05/01' # Missing Date is found in May File so replacing with the first date
+    Missing_Data = '2020/05/01' # Missing Date is found in May File so replacing with the first day of the month
     Listing_2020_Data['HOST_SINCE'] = Listing_2020_Data['HOST_SINCE'].fillna(Missing_Data)
     Listing_2020_Data['SCRAPED_DATE'] = Listing_2020_Data['SCRAPED_DATE'].fillna(Missing_Data)
 
