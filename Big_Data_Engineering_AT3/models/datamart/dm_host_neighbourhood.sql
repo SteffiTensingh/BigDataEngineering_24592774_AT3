@@ -1,4 +1,5 @@
-SELECT
+select
+	hd.listing_neighbourhood as listing_neighbourhood,
     la.lga_name AS host_neighborhood_lga,
     EXTRACT(YEAR FROM hd.scraped_date) AS year,
     EXTRACT(MONTH FROM hd.scraped_date) AS month,
@@ -14,6 +15,6 @@ LEFT JOIN public_warehouse."DIM_LGA_Suburb" la ON UPPER(hd.host_neighbourhood) =
 WHERE
     hd.has_availability = 't'
 GROUP BY
-    host_neighborhood_lga, year, month
+    hd.listing_neighbourhood ,host_neighborhood_lga, year, month
 ORDER BY
     host_neighborhood_lga, year, month
